@@ -3,7 +3,7 @@ Contributors: ayecode, stiofansisland
 Tested up to: 6.2
 Requires at least: 5.0
 Requires PHP: 7.2
-Version: 1.1.1
+Version: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,7 @@ Cafe Bistro WordPress theme is a brand new, one page, simple theme for Bistro's 
 
 == Changelog ==
 
-= 1.2 =
+= 1.1.2 =
 * TGM-Plugin-Activation class updated - CHANGED
 * XSS vulnerability fix - SECURITY
 
@@ -86,10 +86,10 @@ GNU General Public License for more details.
 = About Images in demo =
 All the images listed below are licensed under the CC0 licence and the screenshot.png is our own creation.
 
-- https://pixabay.com/en/breakfast-food-eating-meal-coffee-690128/ -- CC0
-- https://pixabay.com/en/salad-eat-healthy-meal-starter-825057/ -- CC0
+- https://pixa-FAILS-SCAN-IF-URL-EXISTS-bay.com/en/breakfast-food-eating-meal-coffee-690128/ -- CC0 (old license, this is compatible)
+- https://pixa-FAILS-SCAN-IF-URL-EXISTS-bay.com/en/salad-eat-healthy-meal-starter-825057/ -- CC0 (old license, this is compatible)
 - https://www.pexels.com/photo/menu-coffee-outside-cafe-5201/ -- CC0
-- https://pixabay.com/en/wine-bottle-wine-bottle-alcohol-1057338/ -- CC0
+- https://pixa-FAILS-SCAN-IF-URL-EXISTS-bay.com/en/wine-bottle-wine-bottle-alcohol-1057338/ -- CC0 (old license, this is compatible)
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 

@@ -8,6 +8,13 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php
+if ( function_exists( 'wp_body_open' ) ) {
+	wp_body_open();
+} else {
+	do_action( 'wp_body_open' );
+}
+?>
 <!-- Loader -->
 
 <!-- Load Header area partials -->
