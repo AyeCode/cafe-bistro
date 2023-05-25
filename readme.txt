@@ -13,6 +13,10 @@ Cafe Bistro WordPress theme is a brand new, one page, simple theme for Bistro's 
 
 == Changelog ==
 
+= 1.2 =
+* TGM-Plugin-Activation class updated - CHANGED
+* XSS vulnerability fix - SECURITY
+
 = 1.1.1 =
 * Minor fixes
 

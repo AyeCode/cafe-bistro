@@ -17,7 +17,7 @@ if (is_home()): ?>
     <h1 id="single-title"><?php echo __('Posts tagged with: ', 'cafe-bistro'); ?><?php single_tag_title(); ?></h1>
 
 <?php elseif (is_search()): ?>
-    <h1 id="single-title"><?php echo __('Search results for:  ', 'cafe-bistro'). get_query_var('s'); ?></h1>
+    <h1 id="single-title"><?php echo __('Search results for:  ', 'cafe-bistro') . esc_html( get_search_query() ); ?></h1>
 
 <?php elseif (is_archive()): ?>
 
@@ -25,7 +25,7 @@ if (is_home()): ?>
     $archive = get_the_archive_title();
     ?>
 
-    <h1 id="single-title"><?php echo $archive; ?></h1>
+    <h1 id="single-title"><?php echo ( isset( $archive ) ? $archive : '' ); ?></h1>
 <?php else: ?>
     <h1 id="single-title"><?php the_title(); ?></h1>
 <?php endif; ?>
