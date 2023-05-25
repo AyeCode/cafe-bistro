@@ -1,0 +1,48 @@
+/*
+* Responsive Media Queries
+*/
+@media screen and (max-width: 1024px) {
+    .responsive-menu {
+        display: none;
+    }
+
+    #mobile-header{
+        display:block !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .comment-body > .row > .col-md-10 {
+        margin-left: 0 !important;
+    }
+
+    .custom-search-form input[type="text"],
+    .custom-search-form select{
+        width:100% !important;
+        margin:0 !important;
+    }
+    .custom-search-form input[type="text"]:first-child{
+        margin:0 !important;
+    }
+    .custom-search-form input[type="submit"]{
+       margin:0 !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #cb-logo {
+        text-align: center;
+    }
+
+    #logo {
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+
+
+}

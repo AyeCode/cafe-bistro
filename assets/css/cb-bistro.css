@@ -1,0 +1,287 @@
+/**********************
+Navigation
+***********************/
+#cb-header {
+    background: #111111;
+}
+#cb-logo h5 {
+    color:#aaaaaa;
+}
+#cb-header.cb-bistro-header {
+    position: absolute;
+    background: transparent;
+    width: 100%;
+}
+
+#cb-main-navigation ul ul.sub-menu {
+    background: #111111;
+    border: none;
+}
+
+.cb-bistro-header #cb-main-navigation ul ul.sub-menu {
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+
+.blog-item-read-more{
+    padding:9px 25px;
+    background:#53b09e;
+    color:#ffffff;
+    border:1px solid #53b09e;
+    font-family: "Montserrat SemiBold",sans-serif;
+}
+.blog-item-read-more:hover{
+    background:#ffffff;
+    color:#53b09e;
+    border:1px solid #53b09e;
+    padding:9px 25px;
+    font-family: "Montserrat SemiBold",sans-serif;
+}
+/*-------------------
+Posts & pages
+*-------------------*/
+.single-header-image{
+    position:relative;
+    height:48vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.header-image-inside-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.header-image-inside-text > span{
+    display: block;
+}
+
+.header-image-title {
+    font-size: 64px;
+    color: #ffffff;
+    font-family: "Montserrat Bold",sans-serif;
+    margin-bottom:-30px;
+}
+
+.header-image-below-title {
+    margin:0;
+    padding: 10px 0;
+    color:#feab3f;
+    font-size:30px;
+    font-family: "Crimson Italic",cursive;
+}
+/*---------------------
+   Widgets
+---------------------*/
+.widget{
+    padding:15px;
+    margin:0 0 33px 0;
+    font-size:16px;
+    background:#fff;
+}
+h3.widget-title {
+    font-family: "Montserrat SemiBold",sans-serif !important;
+    color:#111111;
+    font-weight: 800;
+}
+.widget ul,
+.widget ol{
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:inherit;
+    padding-right:inherit;
+}
+.widget ul li:first-child{
+    border-top:none;
+}
+.widget ul li ul li:first-child{
+    border-top:none;
+}
+.widget ul li{
+    padding:8px 0;
+    border-bottom: none;
+}
+.widget ul li a:hover{
+    color:#333333;
+}
+.widget_search form .input-group input{
+    background: #ffffff;
+    border:1px solid #e4e4e4 !important;
+}
+.widget_search form .input-group button{
+    background:#53b09e;
+    color:#ffffff;
+    border:1px solid #e4e4e4 !important;;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    margin-top:0;
+}
+.widget_search form .input-group button:hover{
+    color:#333333;
+}
+
+.widget_archive ul li,
+.widget_categories ul li {
+    color:#53b09e;
+}
+.widget_calendar caption{
+    background: #53b09e;
+    color:#ffffff;
+    font-weight:800;
+    font-size:18px;
+    margin-bottom:15px;
+}
+.widget_calendar table{
+    width:100%;
+    border: none;
+}
+.widget_calendar thead{
+    background:#ffffff;
+    text-transform: uppercase;
+}
+.widget_calendar thead tr th{
+    color:#111111;
+    border:none;
+}
+.widget_calendar tbody{
+    background:#ffffff;
+    color:#505050;
+}
+.widget_calendar tbody tr#today,
+.widget_calendar tbody tr td a{
+    border:3px solid #53b09e;
+    padding:5px 10px !important;
+}
+.tagcloud a{
+    font-size:14px !important;
+    background: #53b09e;
+    padding:5px 15px;
+    color:#ffffff;
+    margin:2px 0;
+    display:inline-block;
+}
+
+.tagcloud a:hover{
+    color:#000000;
+    background:#53b09e;
+}
+/*************
+Footer
+**************/
+#cb-footer-area {
+    background: #1d1830;
+}
+
+.footerwidget h3{
+    color:#ffffff;
+}
+
+.footerwidget a{
+    color: #fdab3e;
+}
+
+.footerwidget a:hover{
+     color: #fefefe;
+ }
+/***
+*
+* Bottom Navigation
+*/
+
+#cb-bottom-navigation ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom:50px;
+}
+
+#cb-bottom-navigation ul li {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+#cb-bottom-navigation ul li:first-child {
+    margin-left: 0;
+}
+
+#cb-bottom-navigation ul li a {
+    color: #ffffff;
+    font-family: "Montserrat Bold", sans-serif;
+    font-weight: 100;
+}
+
+#cb-bottom-navigation ul li a:hover {
+    color: #fdab3e;
+}
+
+/** Italian Social LIst **/
+
+#cb-socials-list {
+    margin-top: 30px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#cb-socials-list li {
+    display: inline-block;
+    margin: 0 10px;
+    background: #342d4b;
+    padding: 4px 9px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #1d1830;
+}
+
+#cb-socials-list li a#social-facebook {
+    padding: 4px 5px;
+}
+
+#cb-socials-list li:last-child {
+    margin-right: 0;
+}
+
+#cb-socials-list li a {
+    color: #111111;
+    font-size: 22px;
+}
+
+#cb-socials-list li a:hover {
+    color: #fdab3e;
+}
+/**
+* Copyright
+*/
+#cb-copyright {
+    background: #171424;
+    color: #362f4e;
+    font-family: "Montserrat Light", serif;
+    font-size: 13px;
+}
+
+#cb-copyright a {
+    color: #fdab3e;
+}
+
+#cb-copyright a:hover {
+    color: #362f4e;
+}
+
+/*******************
+Footer Address
+*******************/
+#footer-address {
+    text-align: center;
+    padding: 20px;
+    background: #1D1830;
+    color: #898989;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 14px;
+}
+
+.cb-footer-address {
+    margin-top: 50px;
+}
