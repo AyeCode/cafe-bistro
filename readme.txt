@@ -3,7 +3,7 @@ Contributors: ayecode, stiofansisland
 Tested up to: 6.2
 Requires at least: 5.0
 Requires PHP: 7.2
-Version: 1.1.3
+Version: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,7 @@ Cafe Bistro WordPress theme is a brand new, one page, simple theme for Bistro's 
 
 == Changelog ==
 
-= 1.1.3 =
+= 1.1.4 =
 * TGM-Plugin-Activation class updated - CHANGED
 * XSS vulnerability fix - SECURITY
 
